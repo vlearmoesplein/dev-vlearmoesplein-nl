@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
+baseURL = "https://vlearmoesplein.nl.gitlab.io/site/dev-vlearmoesplein-nl"
 title = "Educenter | hugo education template"
 theme = "educenter-hugo"
 themesDir = "./themes"
