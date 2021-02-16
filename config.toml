@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 # baseURL = "https://vlearmoesplein.nl.gitlab.io/site/dev-vlearmoesplein-nl"
 baseURL = "https://dev.vlearmoesplein.nl/"
-title = "Educenter | hugo education template"
+title = "Stichting Vlearmoesplein"
 theme = "educenter-hugo"
 themesDir = "./themes"
 # post pagination
@@ -50,9 +50,9 @@ logo = "images/logo.png"
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
+address = "7161 HZ Neede"
 mobile = "+211234565523"
-email = "info@educenter.com"
+email = "info@vlearmoesplein.nl"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # Google Analitycs
@@ -89,7 +89,7 @@ expire_days = 2
 [[params.social]]
 title = "facebook"
 icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/Stichting-Vlearmoes-plein-494297867263493"
 
 [[params.social]]
 title = "twitter"
@@ -104,7 +104,7 @@ link = "#"
 [[params.social]]
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
+link = "https://github.com/vlearmoesplein"
 
 [[params.social]]
 title = "linkedin"
