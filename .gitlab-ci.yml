@@ -9,14 +9,15 @@ variables:
 
 test:
   script:
+    - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
     - hugo
   except:
     - master
 
 pages:
   script:
-    - hugo
     - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
+    - hugo
   artifacts:
     paths:
       - public
