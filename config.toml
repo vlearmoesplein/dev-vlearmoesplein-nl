@@ -11,7 +11,7 @@ summaryLength = "10"
 # disqus short name
 disqusShortname = "vlearmoesplein" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = ["fr] # desable language from here
+disableLanguages = ["fr"] # desable language from here
 
 
 ############################# Plugins ##############################
