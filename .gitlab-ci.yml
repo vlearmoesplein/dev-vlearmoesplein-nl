@@ -16,6 +16,7 @@ test:
 pages:
   before_script:
     # - sed -i config.toml -e "s/!GMAP_API_KEY!/"$GMAP_API_KEY"/g"
+    - sed -i config.toml -e "s/!CONTACT_FORM_ACTION!/${CONTACT_FORM_ACTION}/g"
     - sed -i config.toml -e "s/!GMAP_API_KEY!/${GMAP_API_KEY}/g"
   script:
     - hugo
