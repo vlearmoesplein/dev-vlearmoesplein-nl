@@ -9,7 +9,7 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "vlearmoesplein" # get your shortname form here : https://disqus.com
+disqusShortname = "dev-vlearmoesplein-nl" # get your shortname form here : https://disqus.com
 # site default language, which will load first with your site load
 DefaultContentLanguage = "nl"
 # disable language
