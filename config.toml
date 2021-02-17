@@ -10,8 +10,10 @@ paginate = "6"
 summaryLength = "10"
 # disqus short name
 disqusShortname = "vlearmoesplein" # get your shortname form here : https://disqus.com
+# site default language, which will load first with your site load
+DefaultContentLanguage = "nl"
 # disable language
-disableLanguages = ["fr"] # desable language from here
+disableLanguages = ["fr"] # disable language from here
 
 
 ############################# Plugins ##############################
@@ -50,7 +52,7 @@ logo = "images/logo.png"
 description = "This is meta description"
 author = "Vlearmoesplein"
 # contact info
-address = "7161 HZ Neede"
+address = "7161 HZ Neede, Gelderland"
 mobile = ""
 email = "info@vlearmoesplein.nl"
 # contact form action
@@ -92,9 +94,9 @@ icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
 link = "https://www.facebook.com/Stichting-Vlearmoes-plein-494297867263493"
 
 [[params.social]]
-title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCWvQpaCufTxt3yCedtial-A"
 
 [[params.social]]
 title = "instagram"
@@ -112,9 +114,99 @@ icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
 link = "#"
 
 
+################################### Dutch language #####################################
+[Languages.nl]
+languageName = "nl"
+languageCode = "nl-nl"
+contentDir = "content/dutch"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2021 [Stichting Vlearmoesplein](https://dev.vlearmoesplein.nl)"
+
+
+
+################### Dutch navigation ####################
+
+# main menu
+[[Languages.nl.menu.main]]
+name = "Over ons"
+url = "over-ons"
+weight = 1
+
+[[Languages.nl.menu.main]]
+name = "course"
+url = "course"
+weight = 2
+
+[[Languages.nl.menu.main]]
+weight = 3
+name = "Pages"
+hasChildren = true
+
+  [[Languages.nl.menu.main]]
+  parent = "Pages"
+  name = "teacher"
+  url = "teacher"
+
+  [[Languages.nl.menu.main]]
+  parent = "Pages"
+  name = "notice"
+  url = "notice"
+
+  [[Languages.nl.menu.main]]
+  parent = "Pages"
+  name = "evenementen"
+  url = "evenementen"
+
+  [[Languages.nl.menu.main]]
+  parent = "Pages"
+  name = "scholarship"
+  url = "scholarship"
+
+  [[Languages.nl.menu.main]]
+  parent = "Pages"
+  name = "research"
+  url = "research"
+  
+[[Languages.nl.menu.main]]
+name = "blog"
+url = "blog"
+weight = 4
+  
+[[Languages.nl.menu.main]]
+name = "Contact"
+url = "contact"
+weight = 5
+
+
+# footer menu
+
+[[Languages.nl.menu.footer]]
+name = "teacher"
+url = "teacher"
+
+[[Languages.nl.menu.footer]]
+name = "notice"
+url = "notice"
+
+[[Languages.nl.menu.footer]]
+name = "event"
+url = "event"
+
+[[Languages.nl.menu.footer]]
+name = "scholarship"
+url = "scholarship"
+
+[[Languages.nl.menu.footer]]
+name = "research"
+url = "research"
+
+
+
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
+languageName = "en"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
@@ -287,95 +379,5 @@ name = "scholarship"
 url = "scholarship"
 
 [[Languages.fr.menu.footer]]
-name = "research"
-url = "research"
-
-
-
-################################### Dutch language #####################################
-[Languages.nl]
-languageName = "NL"
-languageCode = "nl-nl"
-contentDir = "content/dutch"
-weight = 1
-home = "Home"
-# copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-
-
-
-################### Dutch navigation ####################
-
-# main menu
-[[Languages.nl.menu.main]]
-name = "Over ons"
-url = "over-ons"
-weight = 1
-
-[[Languages.nl.menu.main]]
-name = "course"
-url = "course"
-weight = 2
-
-[[Languages.nl.menu.main]]
-weight = 3
-name = "Pages"
-hasChildren = true
-
-  [[Languages.nl.menu.main]]
-  parent = "Pages"
-  name = "teacher"
-  url = "teacher"
-
-  [[Languages.nl.menu.main]]
-  parent = "Pages"
-  name = "notice"
-  url = "notice"
-
-  [[Languages.nl.menu.main]]
-  parent = "Pages"
-  name = "evenementen"
-  url = "evenementen"
-
-  [[Languages.nl.menu.main]]
-  parent = "Pages"
-  name = "scholarship"
-  url = "scholarship"
-
-  [[Languages.nl.menu.main]]
-  parent = "Pages"
-  name = "research"
-  url = "research"
-  
-[[Languages.nl.menu.main]]
-name = "blog"
-url = "blog"
-weight = 4
-  
-[[Languages.nl.menu.main]]
-name = "Contact"
-url = "contact"
-weight = 5
-
-
-# footer menu
-
-[[Languages.nl.menu.footer]]
-name = "teacher"
-url = "teacher"
-
-[[Languages.nl.menu.footer]]
-name = "notice"
-url = "notice"
-
-[[Languages.nl.menu.footer]]
-name = "event"
-url = "event"
-
-[[Languages.nl.menu.footer]]
-name = "scholarship"
-url = "scholarship"
-
-[[Languages.nl.menu.footer]]
 name = "research"
 url = "research"
