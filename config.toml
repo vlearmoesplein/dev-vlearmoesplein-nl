@@ -83,7 +83,7 @@ map_marker = "images/marker.png" # marker size 37*55 px
 # cookies
 [params.cookies]
 enable = true
-expire_days = 2
+expire_days = 3
   
 ############################# social site ########################
 [[params.social]]
@@ -308,8 +308,8 @@ copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefi
 
 # main menu
 [[Languages.nl.menu.main]]
-name = "About"
-url = "about"
+name = "Over ons"
+url = "over-ons"
 weight = 1
 
 [[Languages.nl.menu.main]]
@@ -334,8 +334,8 @@ hasChildren = true
 
   [[Languages.nl.menu.main]]
   parent = "Pages"
-  name = "event"
-  url = "event"
+  name = "evenementen"
+  url = "evenementen"
 
   [[Languages.nl.menu.main]]
   parent = "Pages"
