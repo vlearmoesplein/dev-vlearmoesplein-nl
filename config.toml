@@ -9,9 +9,9 @@ paginate = "6"
 # post excerpt
 summaryLength = "10"
 # disqus short name
-disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+disqusShortname = "vlearmoesplein" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = [] # desable language from here
+disableLanguages = ["fr] # desable language from here
 
 
 ############################# Plugins ##############################
@@ -51,7 +51,7 @@ description = "This is meta description"
 author = "Vlearmoesplein"
 # contact info
 address = "7161 HZ Neede"
-mobile = "+211234565523"
+mobile = ""
 email = "info@vlearmoesplein.nl"
 # contact form action
 contact_form_action = "https://formspree.io/f/!CONTACT_FORM_ACTION!" # contact form works with https://formspree.io
