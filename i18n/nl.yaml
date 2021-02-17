@@ -20,40 +20,40 @@
   translation: Neem contact op
 
 - id: latest_article
-  translation: Latest Article
+  translation: Laatste artikel
 
 - id: categories
-  translation: Categories
+  translation: Categorieën
 
 - id: tags
   translation: Tags
 
 - id: see_all
-  translation: See all
+  translation: Alles zien
 
 - id: apply_now
-  translation: Apply now
+  translation: Toepassen
 
 - id: posted_by
-  translation: Posted by
+  translation: Gepost door
 
 - id: date
   translation: Date
 
 - id: time
-  translation: time
+  translation: tijd
 
 - id: category
-  translation: Category
+  translation: Categorie
 
 - id: related_course
   translation: Related Course
 
 - id: duration
-  translation: duration
+  translation: duur
 
 - id: weekly
-  translation: weekly
+  translation: wekelijks
 
 - id: fee
   translation: fee
@@ -62,7 +62,7 @@
   translation: teacher
 
 - id: location
-  translation: location
+  translation: locatie
 
 - id: entry_fee
   translation: entry fee
@@ -80,7 +80,7 @@
   translation: Voer uw e-mailadres in ...
 
 - id: company
-  translation: company
+  translation: bedrijf
 
 - id: links
   translation: links
