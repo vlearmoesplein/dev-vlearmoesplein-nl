@@ -12,12 +12,10 @@ test:
     - hugo
   except:
     - master
-
-build:
-  script:
-        - sed -i 's/!GMAP_API_KEY!/$GMAP_API_KEY/g' config.toml
-        
+ 
 pages:
+  before_script:
+    - sed -i config.toml -e "s/!GMAP_API_KEY!/"$GMAP_API_KEY"/g"
   script:
     - hugo
   artifacts:
