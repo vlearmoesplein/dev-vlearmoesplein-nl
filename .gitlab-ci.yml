@@ -13,10 +13,13 @@ test:
   except:
     - master
 
+build:
+  script:
+        - sed -i 's/!GMAP_API_KEY!/$GMAP_API_KEY/g' config.toml
+        
 pages:
   script:
     - hugo
-    - sed -i 's/!GMAP_API_KEY!/$GMAP_API_KEY/g' config.toml
   artifacts:
     paths:
       - public
