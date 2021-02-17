@@ -15,8 +15,8 @@ test:
 
 pages:
   script:
-    - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
     - hugo
+    - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
   artifacts:
     paths:
       - public
