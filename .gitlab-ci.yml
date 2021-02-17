@@ -10,16 +10,13 @@ variables:
 test:
   script:
     - hugo
-    - echo $GMAP_API_KEY
-    - sed -i "s/$KEY/$GMAP_API_KEY/g" config.toml
   except:
     - master
 
 pages:
   script:
     - hugo
-    - echo $GMAP_API_KEY
-    - sed -i "s/$KEY/$GMAP_API_KEY/g" config.toml
+    - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
   artifacts:
     paths:
       - public
