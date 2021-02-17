@@ -9,7 +9,6 @@ variables:
 
 test:
   script:
-    - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
     - hugo
   except:
     - master
