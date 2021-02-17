@@ -131,7 +131,7 @@ copyright = "Copyright &copy; 2021 [Stichting Vlearmoesplein](https://dev.vlearm
 # main menu
 [[Languages.nl.menu.main]]
 name = "Over ons"
-url = "over-ons"
+url = "about"
 weight = 1
 
 [[Languages.nl.menu.main]]
