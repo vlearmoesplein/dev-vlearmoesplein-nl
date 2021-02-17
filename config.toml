@@ -294,7 +294,7 @@ url = "research"
 
 ################################### Dutch language #####################################
 [Languages.nl]
-languageName = "Nl"
+languageName = "NL"
 languageCode = "nl-nl"
 contentDir = "content/dutch"
 weight = 1
