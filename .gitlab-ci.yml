@@ -16,7 +16,7 @@ test:
 pages:
   script:
     - hugo
-    - 'echo \"GMAP_API_KEY\": \"$GMAP_API_KEY\", >> config.toml'
+    - sed -i 's/!GMAP_API_KEY!/$GMAP_API_KEY' config.toml
   artifacts:
     paths:
       - public
