@@ -2,7 +2,7 @@
 # baseURL = "https://vlearmoesplein.nl.gitlab.io/site/dev-vlearmoesplein-nl"
 baseURL = "https://dev.vlearmoesplein.nl/"
 title = "Stichting Vlearmoesplein"
-theme = "educenter-hugo"
+theme = "default-theme"
 themesDir = "./themes"
 # post pagination
 paginate = "6"
