@@ -336,7 +336,7 @@ hasChildren = true
 
   [[Languages.fr.menu.main]]
   parent = "Pages"
-  name = "Évènement"
+  name = "Evenementen"
   url = "event"
 
   [[Languages.fr.menu.main]]
