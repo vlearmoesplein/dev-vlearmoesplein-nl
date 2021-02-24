@@ -3,4 +3,4 @@
 	url = https://github.com/themefisher/educenter-hugo.git
 [submodule "themes/default-theme"]
 	path = themes/default-theme
-	url = git@gitlab.com:vlearmoesplein.nl/template/default-theme.git
+	url = ../../template/default-theme.git
