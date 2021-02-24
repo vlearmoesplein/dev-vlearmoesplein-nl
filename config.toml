@@ -156,7 +156,7 @@ hasChildren = true
 
   [[Languages.nl.menu.main]]
   parent = "Pages"
-  name = "evenmenten"
+  name = "evenementen"
   url = "event"
 
   [[Languages.nl.menu.main]]
