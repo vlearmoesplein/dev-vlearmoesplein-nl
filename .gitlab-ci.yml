@@ -17,7 +17,7 @@ pages:
   before_script:
     - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
     - eval $(ssh-agent -s)
-    - echo "$DEPLOY_KEY" | tr -d '\r' | ssh-add -
+    - echo "${DEPLOY_KEY}" | tr -d '\r' | ssh-add -
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
     # - sed -i config.toml -e "s/!GMAP_API_KEY!/"$GMAP_API_KEY"/g"
